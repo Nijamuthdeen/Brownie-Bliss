@@ -1,0 +1,238 @@
+export interface Product {
+  id: string;
+  name: string;
+  description: string;
+  price: number;
+  image: string;
+  category: string;
+  rating: number;
+  featured?: boolean;
+}
+
+export const cakesData: Product[] = [
+  {
+    id: 'cake-1',
+    name: 'Chocolate Birthday Cake',
+    description: 'Rich chocolate cake with creamy frosting and decorative toppings',
+    price: 899,
+    image: 'https://images.unsplash.com/photo-1558636508-e0db3814bd1d?w=500',
+    category: 'Birthday Cakes',
+    rating: 4.8,
+    featured: true,
+  },
+  {
+    id: 'cake-2',
+    name: 'Vanilla Rainbow Cake',
+    description: 'Colorful layers of vanilla cake with rainbow frosting',
+    price: 749,
+    image: 'https://images.unsplash.com/photo-1562440499-64c9a74d5353?w=500',
+    category: 'Birthday Cakes',
+    rating: 4.9,
+    featured: true,
+  },
+  {
+    id: 'cake-3',
+    name: 'Red Velvet Delight',
+    description: 'Classic red velvet with cream cheese frosting',
+    price: 949,
+    image: 'https://images.unsplash.com/photo-1586985289688-ca3cf47d3e6e?w=500',
+    category: 'Birthday Cakes',
+    rating: 4.7,
+  },
+  {
+    id: 'cake-4',
+    name: 'Three-Tier Wedding Cake',
+    description: 'Elegant white wedding cake with floral decorations',
+    price: 3499,
+    image: 'https://images.unsplash.com/photo-1519225421980-715cb0215aed?w=500',
+    category: 'Wedding Cakes',
+    rating: 5.0,
+    featured: true,
+  },
+  {
+    id: 'cake-5',
+    name: 'Floral Wedding Elegance',
+    description: 'Beautiful multi-tier cake with fresh flowers',
+    price: 4299,
+    image: 'https://images.unsplash.com/photo-1535254973040-607b474cb50d?w=500',
+    category: 'Wedding Cakes',
+    rating: 4.9,
+  },
+  {
+    id: 'cake-6',
+    name: 'Anniversary Special',
+    description: 'Heart-shaped strawberry cake with chocolate drizzle',
+    price: 1299,
+    image: 'https://images.unsplash.com/photo-1606313564200-e75d5e30476c?w=500',
+    category: 'Anniversary Cakes',
+    rating: 4.8,
+  },
+  {
+    id: 'cake-7',
+    name: 'Romantic Rose Cake',
+    description: 'Two-tier cake decorated with edible roses',
+    price: 1599,
+    image: 'https://images.unsplash.com/photo-1557925923-cd4648e211a0?w=500',
+    category: 'Anniversary Cakes',
+    rating: 4.7,
+  },
+  {
+    id: 'cake-8',
+    name: 'Custom Photo Cake',
+    description: 'Personalized cake with edible photo printing',
+    price: 1099,
+    image: 'https://images.unsplash.com/photo-1464349095431-e9a21285b5f3?w=500',
+    category: 'Custom Cakes',
+    rating: 4.6,
+  },
+  {
+    id: 'cake-9',
+    name: 'Unicorn Dream Cake',
+    description: 'Magical unicorn-themed cake for special occasions',
+    price: 1399,
+    image: 'https://images.unsplash.com/photo-1603532648955-039310d9ed75?w=500',
+    category: 'Custom Cakes',
+    rating: 4.9,
+  },
+  {
+    id: 'cake-10',
+    name: 'Eggless Black Forest',
+    description: 'Chocolate sponge with cherry filling, no eggs',
+    price: 849,
+    image: 'https://images.unsplash.com/photo-1578985545062-69928b1d9587?w=500',
+    category: 'Eggless Cakes',
+    rating: 4.7,
+  },
+  {
+    id: 'cake-11',
+    name: 'Eggless Vanilla Strawberry',
+    description: 'Soft vanilla cake with fresh strawberries',
+    price: 799,
+    image: 'https://images.unsplash.com/photo-1565958011703-44f9829ba187?w=500',
+    category: 'Eggless Cakes',
+    rating: 4.8,
+  },
+  {
+    id: 'cake-12',
+    name: 'Eggless Butterscotch',
+    description: 'Rich butterscotch flavor with crunchy toppings',
+    price: 899,
+    image: 'https://images.unsplash.com/photo-1607478900766-efe13248b125?w=500',
+    category: 'Eggless Cakes',
+    rating: 4.6,
+  },
+];
+
+export const browniesData: Product[] = [
+  {
+    id: 'brownie-1',
+    name: 'Classic Brownie',
+    description: 'Traditional fudgy chocolate brownie',
+    price: 199,
+    image: 'https://images.unsplash.com/photo-1606313564200-e75d5e30476c?w=500',
+    category: 'Brownies',
+    rating: 4.7,
+    featured: true,
+  },
+  {
+    id: 'brownie-2',
+    name: 'Walnut Brownie',
+    description: 'Rich chocolate brownie with crunchy walnuts',
+    price: 249,
+    image: 'https://images.unsplash.com/photo-1589279003619-b2d8de157db7?w=500',
+    category: 'Brownies',
+    rating: 4.8,
+  },
+  {
+    id: 'brownie-3',
+    name: 'Fudge Brownie',
+    description: 'Extra fudgy with chocolate ganache',
+    price: 279,
+    image: 'https://images.unsplash.com/photo-1607920591413-4ec007e70023?w=500',
+    category: 'Brownies',
+    rating: 4.9,
+    featured: true,
+  },
+  {
+    id: 'brownie-4',
+    name: 'Choco Chip Brownie',
+    description: 'Loaded with chocolate chips',
+    price: 229,
+    image: 'https://images.unsplash.com/photo-1604394408165-0454777f5ba1?w=500',
+    category: 'Brownies',
+    rating: 4.7,
+  },
+  {
+    id: 'brownie-5',
+    name: 'Caramel Brownie',
+    description: 'Chocolate brownie with caramel swirls',
+    price: 299,
+    image: 'https://images.unsplash.com/photo-1607257882240-1e326c2c2f2c?w=500',
+    category: 'Brownies',
+    rating: 4.8,
+  },
+];
+
+export const chocolatesData: Product[] = [
+  {
+    id: 'choco-1',
+    name: 'Dark Chocolate Bar',
+    description: 'Premium 70% dark chocolate',
+    price: 149,
+    image: 'https://images.unsplash.com/photo-1511381939415-e44015466834?w=500',
+    category: 'Chocolates',
+    rating: 4.8,
+  },
+  {
+    id: 'choco-2',
+    name: 'Milk Chocolate',
+    description: 'Creamy Belgian milk chocolate',
+    price: 129,
+    image: 'https://images.unsplash.com/photo-1606312619070-d48b4cda7f90?w=500',
+    category: 'Chocolates',
+    rating: 4.7,
+    featured: true,
+  },
+  {
+    id: 'choco-3',
+    name: 'White Chocolate',
+    description: 'Smooth white chocolate bar',
+    price: 139,
+    image: 'https://images.unsplash.com/photo-1548907040-4baa42d10919?w=500',
+    category: 'Chocolates',
+    rating: 4.6,
+  },
+  {
+    id: 'choco-4',
+    name: 'Chocolate Truffles',
+    description: 'Assorted handmade chocolate truffles',
+    price: 399,
+    image: 'https://images.unsplash.com/photo-1561424612-aa5e1b2f45f4?w=500',
+    category: 'Chocolates',
+    rating: 4.9,
+    featured: true,
+  },
+  {
+    id: 'choco-5',
+    name: 'Premium Gift Box',
+    description: 'Luxury chocolate gift box with 24 pieces',
+    price: 899,
+    image: 'https://images.unsplash.com/photo-1549007994-cb92caebd54b?w=500',
+    category: 'Chocolates',
+    rating: 5.0,
+    featured: true,
+  },
+  {
+    id: 'choco-6',
+    name: 'Hazelnut Chocolates',
+    description: 'Milk chocolate with roasted hazelnuts',
+    price: 179,
+    image: 'https://images.unsplash.com/photo-1555939594-58d7cb561ad1?w=500',
+    category: 'Chocolates',
+    rating: 4.8,
+  },
+];
+
+export const allProducts = [...cakesData, ...browniesData, ...chocolatesData];
+
+export const featuredProducts = allProducts.filter((p) => p.featured);
